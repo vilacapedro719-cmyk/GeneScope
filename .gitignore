@@ -1,0 +1,19 @@
+# Build products
+/build/
+/out/
+/cmake-build-*/
+
+# Downloaded and derived datasets
+/data/raw/*
+!/data/raw/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep
+
+# Python tooling
+__pycache__/
+.venv/
+*.py[cod]
+
+# Editors
+.vscode/
+.idea/
